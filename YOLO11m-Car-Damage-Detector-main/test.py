@@ -10,8 +10,8 @@ model_path = os.path.join(BASE_DIR, "trained.pt")
 model = YOLO(model_path)
 
 # 2. 設定輸入與輸出檔名
-input_path = os.path.join(BASE_DIR, "test1.jpg")
-output_path = os.path.join(BASE_DIR, "result.jpg")
+input_path = os.path.join(BASE_DIR, "test4.jpg")
+output_path = os.path.join(BASE_DIR, "result4.jpg")
 
 # 3. 進行預測（設置 save=False，由我們自己控制儲存）
 results = model(
