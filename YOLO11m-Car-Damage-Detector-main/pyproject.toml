@@ -1,0 +1,13 @@
+[project]
+name = "yolo11m-car-damage-detector-main"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.141.1",
+    "numpy>=2.5.1",
+    "opencv-python>=5.0.0.93",
+    "pydantic>=2.13.4",
+    "python-multipart>=0.0.12",
+    "ultralytics>=8.4.115",
+    "uvicorn>=0.52.1",
+]
